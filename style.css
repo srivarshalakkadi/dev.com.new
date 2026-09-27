@@ -1,0 +1,63 @@
+body {
+    margin: 30px;
+}
+
+h2 {
+    color: brown;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 70px;
+}
+
+h1 span {
+    color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    width: 48%;
+    gap: 20px;
+}
+
+.card img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+}
+
+.content h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.content p {
+    margin-top: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer {
+    text-align: right;
+    margin-top: 100px;
+}
+
+footer a {
+    color: gray;
+    text-decoration: underline;
+}
